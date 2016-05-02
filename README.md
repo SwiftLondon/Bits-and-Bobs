@@ -12,7 +12,9 @@ Install Carthage if necessary e.g.
 
 Create a Cartfile or add
 
-    github "jamesporter/LondonSwift"
+    github "jamesporter/LondonSwift" "master"
+
+(we will set up version some time soon I'd expect)
 
 Run 
 
