@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1AF099FB1CD7D41C000529E7"
-               BuildableName = "LondonSwift.framework"
-               BlueprintName = "LondonSwift"
-               ReferencedContainer = "container:LondonSwift.xcodeproj">
+               BuildableName = "BitsAndBobs.framework"
+               BlueprintName = "BitsAndBobs"
+               ReferencedContainer = "container:BitsAndBobs.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1AF09A051CD7D41C000529E7"
-               BuildableName = "LondonSwiftTests.xctest"
-               BlueprintName = "LondonSwiftTests"
-               ReferencedContainer = "container:LondonSwift.xcodeproj">
+               BuildableName = "BitsAndBobs.xctest"
+               BlueprintName = "BitsAndBobsTests"
+               ReferencedContainer = "container:BitsAndBobs.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1AF099FB1CD7D41C000529E7"
-            BuildableName = "LondonSwift.framework"
-            BlueprintName = "LondonSwift"
-            ReferencedContainer = "container:LondonSwift.xcodeproj">
+            BuildableName = "BitsAndBobs.framework"
+            BlueprintName = "BitsAndBobs"
+            ReferencedContainer = "container:BitsAndBobs.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1AF099FB1CD7D41C000529E7"
-            BuildableName = "LondonSwift.framework"
-            BlueprintName = "LondonSwift"
-            ReferencedContainer = "container:LondonSwift.xcodeproj">
+            BuildableName = "BitsAndBobs.framework"
+            BlueprintName = "BitsAndBobs"
+            ReferencedContainer = "container:BitsAndBobs.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1AF099FB1CD7D41C000529E7"
-            BuildableName = "LondonSwift.framework"
-            BlueprintName = "LondonSwift"
-            ReferencedContainer = "container:LondonSwift.xcodeproj">
+            BuildableName = "BitsAndBobs.framework"
+            BlueprintName = "BitsAndBobs"
+            ReferencedContainer = "container:BitsAndBobs.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

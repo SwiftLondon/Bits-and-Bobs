@@ -1,5 +1,5 @@
 import XCTest
-@testable import LondonSwift
+import BitsAndBobs
 
 class UIColor_ColourTests: XCTestCase {
 

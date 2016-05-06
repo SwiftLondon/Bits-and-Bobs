@@ -1,7 +1,7 @@
 import XCTest
-@testable import LondonSwift
+import BitsAndBobs
 
-class LondonSwiftTests: XCTestCase {
+class BitsAndBobsTests: XCTestCase {
     
     var today: NSDate!
     var fixedDate: NSDate!

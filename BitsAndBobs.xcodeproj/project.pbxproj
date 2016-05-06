@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AF09A001CD7D41C000529E7 /* LondonSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF099FF1CD7D41C000529E7 /* LondonSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AF09A071CD7D41C000529E7 /* LondonSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF099FC1CD7D41C000529E7 /* LondonSwift.framework */; };
-		1AF09A0C1CD7D41C000529E7 /* UIDate+LondonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF09A0B1CD7D41C000529E7 /* UIDate+LondonTests.swift */; };
-		1AF09A171CD7D664000529E7 /* UIDate+London.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF09A161CD7D664000529E7 /* UIDate+London.swift */; };
-		1AF09A191CD7D81E000529E7 /* UIColor+Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF09A181CD7D81E000529E7 /* UIColor+Colour.swift */; };
+		1AF09A071CD7D41C000529E7 /* BitsAndBobs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF099FC1CD7D41C000529E7 /* BitsAndBobs.framework */; };
+		1AF09A0C1CD7D41C000529E7 /* UIDate+BitsAndBobsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF09A0B1CD7D41C000529E7 /* UIDate+BitsAndBobsTests.swift */; };
 		1AF09A1B1CD7D87F000529E7 /* UIColor+ColourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF09A1A1CD7D87F000529E7 /* UIColor+ColourTests.swift */; };
-		1AF09A1F1CD7E47A000529E7 /* NormalLookingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF09A1E1CD7E47A000529E7 /* NormalLookingButton.swift */; };
+		E73B64B11CDCBEE300FA5E14 /* BitsAndBobs.h in Headers */ = {isa = PBXBuildFile; fileRef = E73B64AF1CDCBEE300FA5E14 /* BitsAndBobs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73B64B41CDCBEEE00FA5E14 /* NormalLookingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B64B31CDCBEEE00FA5E14 /* NormalLookingButton.swift */; };
+		E73B64B71CDCBEF800FA5E14 /* UIColor+Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B64B51CDCBEF800FA5E14 /* UIColor+Colour.swift */; };
+		E73B64B81CDCBEF800FA5E14 /* UIDate+BitsAndBobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B64B61CDCBEF800FA5E14 /* UIDate+BitsAndBobs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,21 +22,21 @@
 			containerPortal = 1AF099F31CD7D41C000529E7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1AF099FB1CD7D41C000529E7;
-			remoteInfo = LondonSwift;
+			remoteInfo = BitsAndBobs;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AF099FC1CD7D41C000529E7 /* LondonSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LondonSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AF099FF1CD7D41C000529E7 /* LondonSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LondonSwift.h; sourceTree = "<group>"; };
-		1AF09A011CD7D41C000529E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AF09A061CD7D41C000529E7 /* LondonSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LondonSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AF09A0B1CD7D41C000529E7 /* UIDate+LondonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDate+LondonTests.swift"; sourceTree = "<group>"; };
+		1AF099FC1CD7D41C000529E7 /* BitsAndBobs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BitsAndBobs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF09A061CD7D41C000529E7 /* BitsAndBobsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitsAndBobsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF09A0B1CD7D41C000529E7 /* UIDate+BitsAndBobsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDate+BitsAndBobsTests.swift"; sourceTree = "<group>"; };
 		1AF09A0D1CD7D41C000529E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AF09A161CD7D664000529E7 /* UIDate+London.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDate+London.swift"; sourceTree = "<group>"; };
-		1AF09A181CD7D81E000529E7 /* UIColor+Colour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Colour.swift"; sourceTree = "<group>"; };
 		1AF09A1A1CD7D87F000529E7 /* UIColor+ColourTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ColourTests.swift"; sourceTree = "<group>"; };
-		1AF09A1E1CD7E47A000529E7 /* NormalLookingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalLookingButton.swift; sourceTree = "<group>"; };
+		E73B64AF1CDCBEE300FA5E14 /* BitsAndBobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitsAndBobs.h; sourceTree = "<group>"; };
+		E73B64B01CDCBEE300FA5E14 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73B64B31CDCBEEE00FA5E14 /* NormalLookingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalLookingButton.swift; sourceTree = "<group>"; };
+		E73B64B51CDCBEF800FA5E14 /* UIColor+Colour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Colour.swift"; sourceTree = "<group>"; };
+		E73B64B61CDCBEF800FA5E14 /* UIDate+BitsAndBobs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDate+BitsAndBobs.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF09A071CD7D41C000529E7 /* LondonSwift.framework in Frameworks */,
+				1AF09A071CD7D41C000529E7 /* BitsAndBobs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,8 +61,8 @@
 		1AF099F21CD7D41C000529E7 = {
 			isa = PBXGroup;
 			children = (
-				1AF099FE1CD7D41C000529E7 /* LondonSwift */,
-				1AF09A0A1CD7D41C000529E7 /* LondonSwiftTests */,
+				1AF099FE1CD7D41C000529E7 /* BitsAndBobs */,
+				1AF09A0A1CD7D41C000529E7 /* BitsAndBobsTests */,
 				1AF099FD1CD7D41C000529E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,48 +70,50 @@
 		1AF099FD1CD7D41C000529E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1AF099FC1CD7D41C000529E7 /* LondonSwift.framework */,
-				1AF09A061CD7D41C000529E7 /* LondonSwiftTests.xctest */,
+				1AF099FC1CD7D41C000529E7 /* BitsAndBobs.framework */,
+				1AF09A061CD7D41C000529E7 /* BitsAndBobsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1AF099FE1CD7D41C000529E7 /* LondonSwift */ = {
+		1AF099FE1CD7D41C000529E7 /* BitsAndBobs */ = {
 			isa = PBXGroup;
 			children = (
-				1AF099FF1CD7D41C000529E7 /* LondonSwift.h */,
-				1AF09A011CD7D41C000529E7 /* Info.plist */,
+				E73B64AF1CDCBEE300FA5E14 /* BitsAndBobs.h */,
+				E73B64B01CDCBEE300FA5E14 /* Info.plist */,
 				1AF09A1D1CD7E462000529E7 /* UI */,
 				1AF09A1C1CD7E44C000529E7 /* Extensions */,
 			);
-			path = LondonSwift;
+			path = BitsAndBobs;
 			sourceTree = "<group>";
 		};
-		1AF09A0A1CD7D41C000529E7 /* LondonSwiftTests */ = {
+		1AF09A0A1CD7D41C000529E7 /* BitsAndBobsTests */ = {
 			isa = PBXGroup;
 			children = (
-				1AF09A0B1CD7D41C000529E7 /* UIDate+LondonTests.swift */,
+				1AF09A0B1CD7D41C000529E7 /* UIDate+BitsAndBobsTests.swift */,
 				1AF09A1A1CD7D87F000529E7 /* UIColor+ColourTests.swift */,
 				1AF09A0D1CD7D41C000529E7 /* Info.plist */,
 			);
-			path = LondonSwiftTests;
+			path = BitsAndBobsTests;
 			sourceTree = "<group>";
 		};
 		1AF09A1C1CD7E44C000529E7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				1AF09A161CD7D664000529E7 /* UIDate+London.swift */,
-				1AF09A181CD7D81E000529E7 /* UIColor+Colour.swift */,
+				E73B64B51CDCBEF800FA5E14 /* UIColor+Colour.swift */,
+				E73B64B61CDCBEF800FA5E14 /* UIDate+BitsAndBobs.swift */,
 			);
 			name = Extensions;
+			path = ../BitsAndBobs;
 			sourceTree = "<group>";
 		};
 		1AF09A1D1CD7E462000529E7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				1AF09A1E1CD7E47A000529E7 /* NormalLookingButton.swift */,
+				E73B64B31CDCBEEE00FA5E14 /* NormalLookingButton.swift */,
 			);
 			name = UI;
+			path = ../BitsAndBobs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,16 +123,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF09A001CD7D41C000529E7 /* LondonSwift.h in Headers */,
+				E73B64B11CDCBEE300FA5E14 /* BitsAndBobs.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1AF099FB1CD7D41C000529E7 /* LondonSwift */ = {
+		1AF099FB1CD7D41C000529E7 /* BitsAndBobs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AF09A101CD7D41C000529E7 /* Build configuration list for PBXNativeTarget "LondonSwift" */;
+			buildConfigurationList = 1AF09A101CD7D41C000529E7 /* Build configuration list for PBXNativeTarget "BitsAndBobs" */;
 			buildPhases = (
 				1AF099F71CD7D41C000529E7 /* Sources */,
 				1AF099F81CD7D41C000529E7 /* Frameworks */,
@@ -141,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = LondonSwift;
-			productName = LondonSwift;
-			productReference = 1AF099FC1CD7D41C000529E7 /* LondonSwift.framework */;
+			name = BitsAndBobs;
+			productName = BitsAndBobs;
+			productReference = 1AF099FC1CD7D41C000529E7 /* BitsAndBobs.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1AF09A051CD7D41C000529E7 /* LondonSwiftTests */ = {
+		1AF09A051CD7D41C000529E7 /* BitsAndBobsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AF09A131CD7D41C000529E7 /* Build configuration list for PBXNativeTarget "LondonSwiftTests" */;
+			buildConfigurationList = 1AF09A131CD7D41C000529E7 /* Build configuration list for PBXNativeTarget "BitsAndBobsTests" */;
 			buildPhases = (
 				1AF09A021CD7D41C000529E7 /* Sources */,
 				1AF09A031CD7D41C000529E7 /* Frameworks */,
@@ -159,9 +161,9 @@
 			dependencies = (
 				1AF09A091CD7D41C000529E7 /* PBXTargetDependency */,
 			);
-			name = LondonSwiftTests;
-			productName = LondonSwiftTests;
-			productReference = 1AF09A061CD7D41C000529E7 /* LondonSwiftTests.xctest */;
+			name = BitsAndBobsTests;
+			productName = BitsAndBobsTests;
+			productReference = 1AF09A061CD7D41C000529E7 /* BitsAndBobsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -182,7 +184,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1AF099F61CD7D41C000529E7 /* Build configuration list for PBXProject "LondonSwift" */;
+			buildConfigurationList = 1AF099F61CD7D41C000529E7 /* Build configuration list for PBXProject "BitsAndBobs" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -194,8 +196,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1AF099FB1CD7D41C000529E7 /* LondonSwift */,
-				1AF09A051CD7D41C000529E7 /* LondonSwiftTests */,
+				1AF099FB1CD7D41C000529E7 /* BitsAndBobs */,
+				1AF09A051CD7D41C000529E7 /* BitsAndBobsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,9 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF09A171CD7D664000529E7 /* UIDate+London.swift in Sources */,
-				1AF09A191CD7D81E000529E7 /* UIColor+Colour.swift in Sources */,
-				1AF09A1F1CD7E47A000529E7 /* NormalLookingButton.swift in Sources */,
+				E73B64B41CDCBEEE00FA5E14 /* NormalLookingButton.swift in Sources */,
+				E73B64B71CDCBEF800FA5E14 /* UIColor+Colour.swift in Sources */,
+				E73B64B81CDCBEF800FA5E14 /* UIDate+BitsAndBobs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF09A0C1CD7D41C000529E7 /* UIDate+LondonTests.swift in Sources */,
+				1AF09A0C1CD7D41C000529E7 /* UIDate+BitsAndBobsTests.swift in Sources */,
 				1AF09A1B1CD7D87F000529E7 /* UIColor+ColourTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,7 +244,7 @@
 /* Begin PBXTargetDependency section */
 		1AF09A091CD7D41C000529E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1AF099FB1CD7D41C000529E7 /* LondonSwift */;
+			target = 1AF099FB1CD7D41C000529E7 /* BitsAndBobs */;
 			targetProxy = 1AF09A081CD7D41C000529E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -347,11 +349,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LondonSwift/Info.plist;
+				INFOPLIST_FILE = BitsAndBobs/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.SwiftLondon.LondonSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.SwiftLondon.BitsAndBobs;
+				PRODUCT_NAME = BitsAndBobs;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -365,11 +367,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LondonSwift/Info.plist;
+				INFOPLIST_FILE = BitsAndBobs/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.SwiftLondon.LondonSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.SwiftLondon.BitsAndBobs;
+				PRODUCT_NAME = BitsAndBobs;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -377,27 +379,27 @@
 		1AF09A141CD7D41C000529E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = LondonSwiftTests/Info.plist;
+				INFOPLIST_FILE = BitsAndBobsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.SwiftLondon.LondonSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.SwiftLondon.BitsAndBobsTests;
+				PRODUCT_NAME = BitsAndBobsTests;
 			};
 			name = Debug;
 		};
 		1AF09A151CD7D41C000529E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = LondonSwiftTests/Info.plist;
+				INFOPLIST_FILE = BitsAndBobsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.SwiftLondon.LondonSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.SwiftLondon.BitsAndBobsTests;
+				PRODUCT_NAME = BitsAndBobsTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AF099F61CD7D41C000529E7 /* Build configuration list for PBXProject "LondonSwift" */ = {
+		1AF099F61CD7D41C000529E7 /* Build configuration list for PBXProject "BitsAndBobs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AF09A0E1CD7D41C000529E7 /* Debug */,
@@ -406,21 +408,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1AF09A101CD7D41C000529E7 /* Build configuration list for PBXNativeTarget "LondonSwift" */ = {
+		1AF09A101CD7D41C000529E7 /* Build configuration list for PBXNativeTarget "BitsAndBobs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AF09A111CD7D41C000529E7 /* Debug */,
 				1AF09A121CD7D41C000529E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1AF09A131CD7D41C000529E7 /* Build configuration list for PBXNativeTarget "LondonSwiftTests" */ = {
+		1AF09A131CD7D41C000529E7 /* Build configuration list for PBXNativeTarget "BitsAndBobsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AF09A141CD7D41C000529E7 /* Debug */,
 				1AF09A151CD7D41C000529E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

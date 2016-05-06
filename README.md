@@ -1,4 +1,4 @@
-# LondonSwift
+# Bits-and-Bobs
 
 Boost your iOS/Swift projects with a bunch of extensions, subclasses and useful pieces of code. The stuff you might otherwise copy and paste between projects.
 
@@ -12,7 +12,7 @@ Install Carthage if necessary e.g.
 
 Create a Cartfile or add
 
-    github "jamesporter/LondonSwift" "master"
+    github "SwiftLondon/Bits-and-Bobs" "master"
 
 (we will set up version some time soon I'd expect)
 
@@ -28,7 +28,7 @@ On your application targets’ “Build Phases” settings tab, click the “+�
     
 and add the paths to the frameworks you want to use under “Input Files”, e.g.:
 
-    $(SRCROOT)/Carthage/Build/iOS/LondonSwift.framework
+    $(SRCROOT)/Carthage/Build/iOS/BitsAndBobs.framework
 
 # Contribute
 
