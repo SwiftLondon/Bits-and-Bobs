@@ -34,7 +34,7 @@ and add the paths to the frameworks you want to use under “Input Files”, e.g
 
 This is intented as a easy to contribute to, starter open source project for the Swift London Meetup group. We hope to do some more advanced things.
 
-[See contribution guide](https://github.com/SwiftLondon/Bits-and-Bobs/blob/update_readme/guide.md)
+[See contribution guide](https://github.com/SwiftLondon/Bits-and-Bobs/blob/master/guide.md)
 
 ## Suggested kinds of things to include
 
