@@ -34,4 +34,31 @@ and add the paths to the frameworks you want to use under “Input Files”, e.g
 
 This is intented as a easy to contribute to, starter open source project for the Swift London Meetup group. We hope to do some more advanced things.
 
-As far as possible please include tests.
+## Suggested kinds of things to include
+
+* Something which goes in one file (so maybe self contained, short)
+* But add tests (if possible/reasonable)
+* Convenience Bits
+    * Swift means you write less code than Obj-C, but we still have to use ugly, verbose Obj-C APIs... let's make that better
+    * And add more funcionality (see for example UIDate+BitsAndBobs)
+* Little subclasses of iOS (etc) components (see for example NormalLookingButton)
+* Magic
+    * If you have some kind of experiment/toy thing that other might find both useful and interesting.
+
+## How to contribute
+
+### Features
+
+* Fork repo
+* Add new thing (or improvement to old thing); ideally following our bits and bobs approach should probably be one Swift file
+* Add tests
+* If appropriate nclude an update the GUIDE.md document describing your new thing
+* Create pull request
+
+### Ideas
+
+See the wiki or Slack
+
+# Help
+
+Join our #open-source channel on Slack and we will try to point you in the right direction/help out.
